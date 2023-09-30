@@ -86,11 +86,14 @@ const ModalOverlay = (props) => {
           })}
         </div>
         <div className="flex flex-row justify-end gap-3">
-          <button className="text-[#2a523e] font-medium" onClick={handleClose}>
+          <button
+            className="text-[#2a523e] px-4  border-transparent border rounded-[1rem] font-medium hover:text-white hover:bg-[#2a523e]"
+            onClick={handleClose}
+          >
             Cancel
           </button>
           <button
-            className="bg-[#2a523e] text-white px-4 py-1 rounded-[1rem]"
+            className="bg-[#2a523e] text-white px-4 py-1 border border-[#2a523e] rounded-[1rem] hover:text-[#2a523e] hover:bg-white hover:border hover:border-[#2a523e]"
             onClick={handleStatusChange}
           >
             Send

@@ -65,7 +65,7 @@ function OrderDashboard() {
 
           <div className={styles["add-print"]}>
             <button className={styles["btn-additem"]}>Add item</button>
-            <PrinterIcon className="h-5 w-5 text-[#2a523e]" />
+            <PrinterIcon className="h-7 w-7 text-[#2a523e]" />
           </div>
         </div>
 

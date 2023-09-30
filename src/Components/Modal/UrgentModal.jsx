@@ -40,13 +40,17 @@ const ModalOverlay = (props) => {
       <div className="flex flex-col p-4 gap-2">
         <div className="flex flex-row justify-between">
           <h1 className="font-500">Missing Product</h1>
-          <XMarkIcon className="h-5 w-5 " onClick={handleClose} />
+          <XMarkIcon className="h-5 w-5 cursor-pointer" onClick={handleClose} />
         </div>
 
         <h2>Is "{props.orderData.productName}" Urgent?</h2>
         <div className="flex flex-row gap-5 text-slate-500 justify-end">
-          <button onClick={handleClose}>No</button>
-          <button onClick={handleStatusChange}>Yes</button>
+          <button className="hover:text-[#2a523e]" onClick={handleClose}>
+            No
+          </button>
+          <button className="hover:text-[#2a523e]" onClick={handleStatusChange}>
+            Yes
+          </button>
         </div>
       </div>
     </div>

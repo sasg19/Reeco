@@ -21,6 +21,7 @@ $primary-color: #2a523e;
 .search-input {
   width: 50%;
   padding: 0 2rem;
+  border: 1px solid #d3d3d3;
 }
 .search-input:focus {
   outline: none;
@@ -37,12 +38,17 @@ input {
 .btn-additem {
   border-radius: 20px;
   font-weight: 800;
-  color: #27503c;
+  color: $primary-color;
   background-color: #ffffff;
-  border: 1px solid #2a523e;
+  border: 1px solid $primary-color;
   padding: 0 0.5rem;
 }
-
+.btn-additem {
+  &:hover {
+    background-color: $primary-color;
+    color: #ffffff;
+  }
+}
 .add-print {
   display: flex;
   align-items: center;
@@ -51,7 +57,7 @@ input {
 
 .print {
   margin-left: 2rem;
-  color: #27503c;
+  color: $primary-color;
 }
 
 table {
@@ -98,5 +104,5 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.8rem;
 }

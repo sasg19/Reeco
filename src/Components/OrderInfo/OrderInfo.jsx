@@ -42,8 +42,8 @@ function OrderInfo() {
         <p> 300-444-678</p>
       </div>
       <div className={styles.item}>
-        <h1 className="heading">Status</h1>
-        <p className="info"> Awaiting your approval</p>
+        <h1>Status</h1>
+        <p> Awaiting your approval</p>
       </div>
     </div>
   );

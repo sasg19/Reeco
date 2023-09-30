@@ -109,6 +109,12 @@ select {
   background-color: #ffffff;
   border: 1px solid $primary-color;
 }
+.btn-back {
+  &:hover {
+    color: #ffffff;
+    background-color: $primary-color;
+  }
+}
 
 .btn-approveorder {
   padding: 0.4rem 1rem;
@@ -118,4 +124,11 @@ select {
   color: #ffffff;
   width: 10rem;
   background-color: $primary-color;
+}
+.btn-approveorder {
+  &:hover {
+    color: $primary-color;
+    background-color: #ffffff;
+    border: 1px solid $primary-color;
+  }
 }
