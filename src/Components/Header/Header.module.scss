@@ -1,0 +1,121 @@
+$primary-color: #2a523e;
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  box-shadow: 0 1em 1em -1em rgba(0, 0, 0, 0.15);
+}
+
+.navbar-container {
+  padding: 0 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  background-color: $primary-color;
+  color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title {
+  font-size: 22px;
+  width: 8rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navigation {
+  * {
+    width: 5.5rem;
+  }
+}
+
+.profile {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  div {
+    width: 7rem;
+  }
+}
+
+span {
+  width: 4rem;
+}
+
+select {
+  background-color: $primary-color;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+}
+
+.order-navigation {
+  padding-left: 8rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: #808080;
+}
+.order-navigation {
+  div {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.orderno {
+  text-decoration: underline;
+}
+
+.heading-orderdetail {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.order-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-cta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.btn-back {
+  height: 2.4rem;
+  border-radius: 20px;
+  font-weight: 800;
+  width: 4rem;
+  color: $primary-color;
+  background-color: #ffffff;
+  border: 1px solid $primary-color;
+}
+
+.btn-approveorder {
+  padding: 0.4rem 1rem;
+  height: 2.4rem;
+  border-radius: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  width: 10rem;
+  background-color: $primary-color;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "productId": 0,
+    "productName": "Chicken Breast",
+    "brand": "Hormel Black",
+    "price": 10,
+    "quantity": 15,
+    "status": ""
+  },
+  {
+    "productId": 1,
+    "productName": "Avacado",
+    "brand": "Hormel Black",
+    "price": 10,
+    "quantity": 17,
+    "status": ""
+  },
+  {
+    "productId": 2,
+    "productName": "Pineapple",
+    "brand": "Hormel Black",
+    "price": 6,
+    "quantity": 5,
+    "status": ""
+  },
+  {
+    "productId": 3,
+    "productName": "Tuna Fish",
+    "brand": "Hormel Black",
+    "price": 6,
+    "quantity": 11,
+    "status": ""
+  },
+  {
+    "productId": 4,
+    "productName": "Mango",
+    "brand": "Hormel Black",
+    "price": 4,
+    "quantity": 15,
+    "status": ""
+  },
+  {
+    "productId": 5,
+    "productName": "Capsicum",
+    "brand": "Hormel Black",
+    "price": 8,
+    "quantity": 8,
+    "status": ""
+  }
+]
