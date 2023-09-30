@@ -19,11 +19,11 @@ function Header() {
           <span>
             <ShoppingCartIcon className="h-5 w-5" />
           </span>
-          <div>
+          <div className="flex flex-row">
             Hello,
-            <select defaultValue="James">
+            <select defaultValue="James" className="focus:outline-0">
               <option>James</option>
-              <option>Liiy</option>
+              <option>Logout</option>
             </select>
           </div>
         </div>
